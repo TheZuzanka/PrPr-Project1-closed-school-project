@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="PrPr1_rozdelene"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/wlach/CLionProjects/PrPr1_rozdelene/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/wlach/CLionProjects/PrPr1_rozdelene/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="E:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/wlach/CLionProjects/PrPr1_rozdelene/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/wlach/CLionProjects/PrPr1_rozdelene/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/wlach/CLionProjects/PrPr1_rozdelene/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/wlach/CLionProjects/PrPr1_rozdelene/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/wlach/CLionProjects/PrPr1_rozdelene/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="E:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/wlach/CLionProjects/PrPr1_rozdelene/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/wlach/CLionProjects/PrPr1_rozdelene/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/wlach/CLionProjects/PrPr1_rozdelene/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PrPr1_rozdelene">
+				<Option output="C:/Users/wlach/CLionProjects/PrPr1_rozdelene/cmake-build-debug/PrPr1_rozdelene.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/wlach/CLionProjects/PrPr1_rozdelene/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include"/>
+					<Add directory="E:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="E:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/wlach/CLionProjects/PrPr1_rozdelene/cmake-build-debug/Makefile&quot;  VERBOSE=1 PrPr1_rozdelene"/>
+					<CompileFile command="E:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/wlach/CLionProjects/PrPr1_rozdelene/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/wlach/CLionProjects/PrPr1_rozdelene/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/wlach/CLionProjects/PrPr1_rozdelene/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PrPr1_rozdelene/fast">
+				<Option output="C:/Users/wlach/CLionProjects/PrPr1_rozdelene/cmake-build-debug/PrPr1_rozdelene.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/wlach/CLionProjects/PrPr1_rozdelene/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include"/>
+					<Add directory="E:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="E:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/wlach/CLionProjects/PrPr1_rozdelene/cmake-build-debug/Makefile&quot;  VERBOSE=1 PrPr1_rozdelene/fast"/>
+					<CompileFile command="E:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/wlach/CLionProjects/PrPr1_rozdelene/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/wlach/CLionProjects/PrPr1_rozdelene/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/wlach/CLionProjects/PrPr1_rozdelene/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/wlach/CLionProjects/PrPr1_rozdelene/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/wlach/CLionProjects/PrPr1_rozdelene/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="E:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/wlach/CLionProjects/PrPr1_rozdelene/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/wlach/CLionProjects/PrPr1_rozdelene/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/wlach/CLionProjects/PrPr1_rozdelene/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/wlach/CLionProjects/PrPr1_rozdelene/a.c">
+			<Option target="PrPr1_rozdelene"/>
+		</Unit>
+		<Unit filename="C:/Users/wlach/CLionProjects/PrPr1_rozdelene/functions.h">
+			<Option target="PrPr1_rozdelene"/>
+		</Unit>
+		<Unit filename="C:/Users/wlach/CLionProjects/PrPr1_rozdelene/k.c">
+			<Option target="PrPr1_rozdelene"/>
+		</Unit>
+		<Unit filename="C:/Users/wlach/CLionProjects/PrPr1_rozdelene/main.c">
+			<Option target="PrPr1_rozdelene"/>
+		</Unit>
+		<Unit filename="C:/Users/wlach/CLionProjects/PrPr1_rozdelene/o.c">
+			<Option target="PrPr1_rozdelene"/>
+		</Unit>
+		<Unit filename="C:/Users/wlach/CLionProjects/PrPr1_rozdelene/p.c">
+			<Option target="PrPr1_rozdelene"/>
+		</Unit>
+		<Unit filename="C:/Users/wlach/CLionProjects/PrPr1_rozdelene/r.c">
+			<Option target="PrPr1_rozdelene"/>
+		</Unit>
+		<Unit filename="C:/Users/wlach/CLionProjects/PrPr1_rozdelene/v.c">
+			<Option target="PrPr1_rozdelene"/>
+		</Unit>
+		<Unit filename="C:/Users/wlach/CLionProjects/PrPr1_rozdelene/x.c">
+			<Option target="PrPr1_rozdelene"/>
+		</Unit>
+		<Unit filename="C:/Users/wlach/CLionProjects/PrPr1_rozdelene/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
