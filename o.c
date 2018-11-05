@@ -30,13 +30,7 @@ PERSON *o(PERSON *list, int *n_notes, FILE **fr) {
 
     *n_notes = number / 8;                                                                                              //počet záznamov
     list = (PERSON *) malloc(number * sizeof(PERSON));
-    if (fclose(*fr) == EOF) {
-        exit(-1);
-    }
-
-    if ((*fr = fopen("priestupky.txt", "r")) == NULL) {
-        exit(-1);
-    }
+    rewind(*fr);
 
     for (i = 0; i < number; i++) {                                                                                      //potrebujem urobiť pre všetky riadky súboru
         if (i % 8 == 0) {
