@@ -3,27 +3,25 @@
 
 int main() {
     PERSON *list = NULL, *new_list;                                                                                     //prvy prvok nastavím explicinte na NULL. Ak nebude alokované pole, ostane NULL
-    PERSON **p_list = NULL;                                                                                             //keď si "pridám" do poˇôa, vytvorím nové a potrebujem ppotom vypisovať nové pole
+    PERSON **p_list = NULL;                                                                                             //keď si "pridám" do poľa, vytvorím nové a potrebujem potom vypisovať nové pole
     FILE *fr = NULL;
     int num_notes;
     int function;
 
 
     while ((function = getchar())) {                                                                                    //nekonečný cyklus, ukončuje sa vo funkcii k
-        getchar();
+        getchar();                                                                                                      //prečíta '\n'
         switch (function) {
             case 'o':
                 list = o(list, &num_notes, &fr);
-                if (list ==
-                    NULL) {                                                                                             //malloc mi vracia NULL ak sa pamäť nealokuje alebo NULL z explicitnej definície, ak sa funkcia o vôbec nespustí
+                if (list == NULL) {                                                                                     //malloc mi vracia NULL ak sa pamäť nealokuje alebo NULL z explicitnej definície, ak sa funkcia o vôbec nespustí
                     printf("Pole nie je naplnené.\n");
                 }
-                p_list = &list;
+                p_list = &list;                                                                                         //keď budem chcieť vypísať pole, budem vypisovať
                 break;
 
             case 'v':
-                v(p_list,
-                  num_notes);                                                                                           //ak num_notes nie je inicializované, nevadí to, lebo ako prvé sa vykoná porovnanie p_list na nulu, ak je p_list 0,, num_notes nie je inicializované a funkcia skončí
+                v(p_list, num_notes);                                                                                   //ak num_notes nie je inicializované, nevadí to, lebo ako prvé sa vykoná porovnanie p_list na nulu, ak je p_list 0, tým pádom num_notes nie je inicializované ale funkcia sa skončí predtým ako by sa s neinicializovanou premennou malo niečo robiť
                 break;
             case 'k':
                 k(&fr, &list);
