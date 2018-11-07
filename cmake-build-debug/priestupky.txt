@@ -1,39 +1,55 @@
-abc
-F
-19991002
-ABCDEP6
-0
-20
-20182510
-
-abe
+Andrej Plavka
 M
-19021998
-BL604OY
+1955
+KN323NK
 1
-120
-19971111
+125
+20181102
 
-abf
-F
-19571606
-BA602HG
+Anna Maria Cicmancova
+Z
+1960
+MA221PX
 1
-27
-19970410
+10
+20131107
 
-abg
+Maria Razusova Martakova
+Z
+1987
+PP987AC
+0
+350
+20180505
+
+Milan Rastislav Pokojny
 M
-00000000
-BA787AB
+2000
+BA323AB
 0
-0
-88888888
+870
+20181101
 
-ablMilan Rastislav Stefanik DlhePriezviskoPotrebujemToVyskusat50Znakov
-F
-44444444
-NA121AN
+Milena Sedmikraskova
+Z
+1985
+SA555AA
 0
-345
-19970909
+447
+20181106
+
+Vincent Sikula
+M
+1945
+PK642SC
+1
+32
+20171103
+
+Vincent van Gogh
+M
+1999
+PD787DP
+0
+2000
+20161117
