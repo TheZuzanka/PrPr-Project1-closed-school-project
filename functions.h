@@ -11,7 +11,7 @@
 typedef struct {
     char name[51];
     int sex;
-    char birth_year[9];                                                                                                 //ak by som začínala nulou,robilo by to šarapatu, v stringu, to čo napíšem, to mám + je statický jeeej
+    char birth_year[5];                                                                                                 //ak by som začínala nulou,robilo by to šarapatu, v stringu, to čo napíšem, to mám + je statický jeeej
     char SPZ[8];
     int type;
     int money;

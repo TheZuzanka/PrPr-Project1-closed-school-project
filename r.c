@@ -23,8 +23,8 @@ void r(PERSON **p_list, int n_notes) {
             l_month[6] = '\0';
 
             if (strcmp(a_month, l_month) == 0) {
-                (*p_list)[j].type == 0 ? (total_money += ((*p_list)[j].money * 0.052)) : (total_money += (
-                        (*p_list)[j].money * 0.038));
+                (*p_list)[j].type == 0 ? (total_money += ((*p_list)[j].money * 0.038)) : (total_money += (
+                        (*p_list)[j].money * 0.052));
             }
         }
         printf("%.2lf\n", total_money);

@@ -12,7 +12,7 @@ PERSON *a(PERSON **p_list, int *n_notes) {
 
     char name_n[51];
     int sex_n;
-    char birth_year_n[9];
+    char birth_year_n[5];
     char SPZ_n[8];
     int type_n;
     int money_n;

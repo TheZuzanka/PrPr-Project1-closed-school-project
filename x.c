@@ -19,8 +19,10 @@ void x(PERSON **p_list, int n_notes) {
             }
             l_year[4] = '\0';
 
-            if ((strcmp(a_year, l_year) == 0) && ((*p_list)[j].type == 1)) {
-                printf("%s %s %s\n", (*p_list)[j].name, (*p_list)[j].SPZ, (*p_list)[j].date);
+            if ((strcmp(a_year, l_year) == 0) && ((*p_list)[j].type == 0)) {
+                printf("Meno a priezvisko: %s\n"
+                       "SPZ: %s\n"
+                       "Datum priestupku: %s\n\n", (*p_list)[j].name, (*p_list)[j].SPZ, (*p_list)[j].date);
             }                                                                                                           //vypíše sa len, keď sedí dátum a typ je 1 = odňatie
         }
     }
