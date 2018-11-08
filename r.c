@@ -9,7 +9,7 @@ void r(PERSON **p_list, int n_notes) {
     char a_date[9], a_month[7], l_month[7];                                                                             //musím mať rovnaký rok aj mesiac = prvých 6 znakov
     int i, j;
 
-    if (*p_list != NULL) {                                                                                              //pri nenačítanom zozname sa nevykoná nič
+    if (*p_list != NULL) {                                                                                              //pri nenačítanom zozname sa načíta dátum ale nič sa nevykoná
         scanf("%s", a_date);
         for (i = 0; i < 6; i++) {
             a_month[i] = a_date[i];
@@ -28,6 +28,9 @@ void r(PERSON **p_list, int n_notes) {
             }
         }
         printf("%.2lf\n", total_money);
-        getchar();
     }
+    else{
+        scanf("%s", a_date);
+    }
+    getchar();
 }

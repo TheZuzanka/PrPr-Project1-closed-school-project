@@ -8,7 +8,7 @@
 #include <stdio.h>
 #define MAX_STRING_LENGTH 50                                                                                            //nastavenie konštanty pre dĺžku mena = max 50 znakov
 
-typedef struct {
+typedef struct {                                                                                                        //vytvorenie dátového typu PERSON, ktorý sa používa v celom projekte
     char name[51];                                                                                                      //pamäť sa alokuje pre 50 znakov + ukončujúci znak '\0'
     int sex;
     char birth_year[5];                                                                                                 //zle som si prečítala zadania a myslela som, že sa môže začínať 0. Preto som zvolila string

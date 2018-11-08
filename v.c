@@ -6,8 +6,7 @@
 void v(PERSON **p_list, int n_notes) {
     int i;
 
-    if (*p_list == NULL) { ;
-    } else {
+    if (*p_list != NULL) {
         for (i = 0; i < n_notes; i++) {
             printf("meno priezvisko: %s\n"
                            "pohlavie: %c\n"

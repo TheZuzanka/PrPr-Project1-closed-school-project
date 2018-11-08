@@ -6,7 +6,7 @@
 #include "functions.h"
 
 PERSON *a(PERSON **p_list, int *n_notes) {
-    int i, left = *n_notes;
+    int left = *n_notes;
     char string_n[100];
     int aktual = 0, insert_pos = 0, inserted = 0;                                                                       //inserted = či už bolo vložené, aktual = pozícia v pôvodnom poli, insert_pos = pozícia v novom poli
 
@@ -19,7 +19,6 @@ PERSON *a(PERSON **p_list, int *n_notes) {
     char date_n[9];
     PERSON *new_list = (PERSON *) malloc((*n_notes + 1) * sizeof(PERSON));
     (*n_notes)++;
-    printf("Alokácia\n");
 
     fgets(string_n, 499, stdin);                                                                                        //do pomocnej premennej načítam celé meno
     if (strlen(string_n) <= MAX_STRING_LENGTH) {                                                                        //ak sa mi meno zmestí do štruktúry
