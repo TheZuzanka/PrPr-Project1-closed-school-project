@@ -19,6 +19,7 @@ PERSON *a(PERSON **p_list, int *n_notes) {
     char date_n[9];
     PERSON *new_list = (PERSON *) malloc((*n_notes + 1) * sizeof(PERSON));
     (*n_notes)++;
+    printf("Alokácia\n");
 
     fgets(string_n, 499, stdin);                                                                                        //do pomocnej premennej načítam celé meno
     if (strlen(string_n) <= MAX_STRING_LENGTH) {                                                                        //ak sa mi meno zmestí do štruktúry
@@ -69,7 +70,9 @@ PERSON *a(PERSON **p_list, int *n_notes) {
         }
     }
 
-    free(*p_list);
+    if(p_list != NULL){                                                                                                 //pokiaľ už mám vytvorené pôvodné pole, uvoľní sa
+        free(*p_list);                                                                                                  //ak funkcia o neprebehla a pole sa nenačítalo, nemusím uvoľňovať, lebo som nič nealokovala
+    }
 
     return new_list;
 }

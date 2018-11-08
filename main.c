@@ -5,7 +5,7 @@ int main() {
     PERSON *list = NULL, *new_list;                                                                                     //prvy prvok nastavím explicinte na NULL. Ak nebude alokované pole, ostane NULL
     PERSON **p_list = NULL;                                                                                             //keď si "pridám" do poľa, vytvorím nové a potrebujem potom vypisovať nové pole
     FILE *fr = NULL;
-    int num_notes;
+    int num_notes = 0;
     int function;
 
 
