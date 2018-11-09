@@ -4,11 +4,13 @@
 #include <stdlib.h>
 #include "functions.h"
 
-void k(FILE **fr, PERSON **list) {
-    if (fclose(*fr) == EOF) {
+void k(FILE **fr, PERSON **p_list) {
+    if (fclose(*fr) == EOF) {                                                                                           //zavriem súbor
         exit(-1);
     }
 
-    free(*list);
+    if(p_list != NULL){                                                                                                 //pokiaľ už mám vytvorené pôvodné pole, uvoľní sa
+        free(*p_list);                                                                                                  //ak funkcia o neprebehla a pole sa nenačítalo, nemusím uvoľňovať, lebo som nič nealokovala
+    }
     exit(0);
 }

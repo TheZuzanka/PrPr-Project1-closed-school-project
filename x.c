@@ -13,19 +13,19 @@ void x(PERSON **p_list, int n_notes) {
     }
     else {
         fgets(a_year, 9, stdin);
-        a_year[4] = '\0';
+        a_year[4] = '\0';                                                                                               //načíta sa aktuálny dátum a odreže sa z neho iba rok
 
         for (j = 0; j < n_notes; j++) {
             for (i = 0; i <= 3; i++) {
-                l_year[i] = ((*p_list)[j].date)[i];
+                l_year[i] = ((*p_list)[j].date)[i];                                                                     //zo štruktúry sa vezme dátum priestupku, prvé štyri znaky (rok) sa prekopírujú
             }
-            l_year[4] = '\0';
+            l_year[4] = '\0';                                                                                           //pridá sa ukončovací znak
 
-            if ((strcmp(a_year, l_year) == 0) && ((*p_list)[j].type == 0)) {
+            if ((strcmp(a_year, l_year) == 0) && ((*p_list)[j].type == 0)) {                                            //ak sa roky zhodujú a typ priestupku je 0 = odňatie preukazu, vypíše sa
                 printf("meno priezvisko: %s\n"
                        "SPZ: %s\n"
                        "datum priestupku: %s\n\n", (*p_list)[j].name, (*p_list)[j].SPZ, (*p_list)[j].date);
-            }                                                                                                           //vypíše sa len, keď sedí dátum a typ je 1 = odňatie
+            }
         }
     }
     getchar();                                                                                                          //keď sa vrátim do main, aby mi to vzalo ďalší príkaz

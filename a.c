@@ -36,7 +36,7 @@ PERSON *a(PERSON **p_list, int *n_notes) {
     getchar();
 
     while (insert_pos <= left) {
-        if ((!inserted && insert_pos == left) || (!inserted && strcmp(name_n, (*p_list)[aktual].name) <=0)) {           //som na poslednom prvku a ešte som pridávaný prvok nevložila alebo som ešte prvok ešte nevložila a abecedne môžemm
+        if ((!inserted && insert_pos == left) || (!inserted && strcmp(name_n, (*p_list)[aktual].name) <=0)) {           //som na poslednom prvku a ešte som pridávaný prvok nevložila, alebo som prvok ešte nevložila a abecedne môžem
             strcpy(new_list[insert_pos].name, name_n);
             new_list[insert_pos].sex = sex_n;
             strcpy(new_list[insert_pos].birth_year, birth_year_n);
@@ -46,7 +46,7 @@ PERSON *a(PERSON **p_list, int *n_notes) {
             strcpy(new_list[insert_pos].date, date_n);
             insert_pos++;
             inserted = 1;
-        } else if (!inserted && strcmp(name_n, (*p_list)[aktual].name) == 0) {                                          //ak vkladané údaje majú rovnaké meno ako nejaké mmeno, ktoré už v poli je, hodím to pred to, ak by sme chceli, môžme za to
+        } else if (!inserted && strcmp(name_n, (*p_list)[aktual].name) == 0) {                                          //ak vkladané údaje majú rovnaké meno ako nejaké meno, ktoré už v poli je, napíšem vkladaný záznam záznam pred existujúci záznam s rovnakým menom
             strcpy(new_list[insert_pos].name, name_n);
             new_list[insert_pos].sex = sex_n;
             strcpy(new_list[insert_pos].birth_year, birth_year_n);
