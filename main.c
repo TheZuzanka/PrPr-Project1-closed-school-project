@@ -7,7 +7,7 @@ int main() {
     FILE *fr = NULL;
     int num_notes = 0;
     int function;
-    int position;
+    int position, value = 0;
 
 
     while ((function = getchar())) {                                                                                    //nekonečný cyklus, ukončuje sa vo funkcii k
@@ -41,11 +41,14 @@ int main() {
                 p_list = &new_list;
                 break;
             case 'd':
-                printf("position\n");
                 scanf("%d", &position);
                 getchar();
                 del(p_list, &num_notes, position);
                 break;
+            case 'c':
+                scanf("%d", &value);
+                getchar();
+                ces(p_list, num_notes, value);
             default:
                 break;
         }

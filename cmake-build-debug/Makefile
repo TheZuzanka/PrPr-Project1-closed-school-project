@@ -149,6 +149,33 @@ a.c.s:
 	$(MAKE) -f CMakeFiles\PrPr1_rozdelene.dir\build.make CMakeFiles/PrPr1_rozdelene.dir/a.c.s
 .PHONY : a.c.s
 
+ces.obj: ces.c.obj
+
+.PHONY : ces.obj
+
+# target to build an object file
+ces.c.obj:
+	$(MAKE) -f CMakeFiles\PrPr1_rozdelene.dir\build.make CMakeFiles/PrPr1_rozdelene.dir/ces.c.obj
+.PHONY : ces.c.obj
+
+ces.i: ces.c.i
+
+.PHONY : ces.i
+
+# target to preprocess a source file
+ces.c.i:
+	$(MAKE) -f CMakeFiles\PrPr1_rozdelene.dir\build.make CMakeFiles/PrPr1_rozdelene.dir/ces.c.i
+.PHONY : ces.c.i
+
+ces.s: ces.c.s
+
+.PHONY : ces.s
+
+# target to generate assembly for a file
+ces.c.s:
+	$(MAKE) -f CMakeFiles\PrPr1_rozdelene.dir\build.make CMakeFiles/PrPr1_rozdelene.dir/ces.c.s
+.PHONY : ces.c.s
+
 del.obj: del.c.obj
 
 .PHONY : del.obj
@@ -377,6 +404,9 @@ help:
 	@echo ... a.obj
 	@echo ... a.i
 	@echo ... a.s
+	@echo ... ces.obj
+	@echo ... ces.i
+	@echo ... ces.s
 	@echo ... del.obj
 	@echo ... del.i
 	@echo ... del.s
