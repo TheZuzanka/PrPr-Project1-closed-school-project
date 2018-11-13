@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "C:/Users/wlach/CLionProjects/PrPr1_rozdelene/a.c" "C:/Users/wlach/CLionProjects/PrPr1_rozdelene/cmake-build-debug/CMakeFiles/PrPr1_rozdelene.dir/a.c.obj"
+  "C:/Users/wlach/CLionProjects/PrPr1_rozdelene/del.c" "C:/Users/wlach/CLionProjects/PrPr1_rozdelene/cmake-build-debug/CMakeFiles/PrPr1_rozdelene.dir/del.c.obj"
   "C:/Users/wlach/CLionProjects/PrPr1_rozdelene/k.c" "C:/Users/wlach/CLionProjects/PrPr1_rozdelene/cmake-build-debug/CMakeFiles/PrPr1_rozdelene.dir/k.c.obj"
   "C:/Users/wlach/CLionProjects/PrPr1_rozdelene/main.c" "C:/Users/wlach/CLionProjects/PrPr1_rozdelene/cmake-build-debug/CMakeFiles/PrPr1_rozdelene.dir/main.c.obj"
   "C:/Users/wlach/CLionProjects/PrPr1_rozdelene/o.c" "C:/Users/wlach/CLionProjects/PrPr1_rozdelene/cmake-build-debug/CMakeFiles/PrPr1_rozdelene.dir/o.c.obj"

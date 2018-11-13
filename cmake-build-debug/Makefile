@@ -149,6 +149,33 @@ a.c.s:
 	$(MAKE) -f CMakeFiles\PrPr1_rozdelene.dir\build.make CMakeFiles/PrPr1_rozdelene.dir/a.c.s
 .PHONY : a.c.s
 
+del.obj: del.c.obj
+
+.PHONY : del.obj
+
+# target to build an object file
+del.c.obj:
+	$(MAKE) -f CMakeFiles\PrPr1_rozdelene.dir\build.make CMakeFiles/PrPr1_rozdelene.dir/del.c.obj
+.PHONY : del.c.obj
+
+del.i: del.c.i
+
+.PHONY : del.i
+
+# target to preprocess a source file
+del.c.i:
+	$(MAKE) -f CMakeFiles\PrPr1_rozdelene.dir\build.make CMakeFiles/PrPr1_rozdelene.dir/del.c.i
+.PHONY : del.c.i
+
+del.s: del.c.s
+
+.PHONY : del.s
+
+# target to generate assembly for a file
+del.c.s:
+	$(MAKE) -f CMakeFiles\PrPr1_rozdelene.dir\build.make CMakeFiles/PrPr1_rozdelene.dir/del.c.s
+.PHONY : del.c.s
+
 k.obj: k.c.obj
 
 .PHONY : k.obj
@@ -350,6 +377,9 @@ help:
 	@echo ... a.obj
 	@echo ... a.i
 	@echo ... a.s
+	@echo ... del.obj
+	@echo ... del.i
+	@echo ... del.s
 	@echo ... k.obj
 	@echo ... k.i
 	@echo ... k.s

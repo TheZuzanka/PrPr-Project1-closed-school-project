@@ -11,6 +11,7 @@ void r(PERSON **p_list, int n_notes) {
 
     if(*p_list == NULL){                                                                                                //pri nenačítanom zozname sa načíta dátum ale nič sa nevykoná
         scanf("%s", a_date);
+        return;
     }
     else {
         scanf("%s", a_date);

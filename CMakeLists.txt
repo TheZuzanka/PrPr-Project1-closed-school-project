@@ -3,4 +3,4 @@ project(PrPr1_rozdelene C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(PrPr1_rozdelene main.c functions.h o.c k.c x.c r.c p.c a.c v.c)
+add_executable(PrPr1_rozdelene main.c functions.h o.c k.c x.c r.c p.c a.c v.c del.c)
