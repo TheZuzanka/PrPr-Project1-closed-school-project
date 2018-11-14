@@ -248,76 +248,52 @@ CMakeFiles/PrPr1_rozdelene.dir/v.c.obj.provides: CMakeFiles/PrPr1_rozdelene.dir/
 CMakeFiles/PrPr1_rozdelene.dir/v.c.obj.provides.build: CMakeFiles/PrPr1_rozdelene.dir/v.c.obj
 
 
-CMakeFiles/PrPr1_rozdelene.dir/del.c.obj: CMakeFiles/PrPr1_rozdelene.dir/flags.make
-CMakeFiles/PrPr1_rozdelene.dir/del.c.obj: ../del.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wlach\CLionProjects\PrPr1_rozdelene\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/PrPr1_rozdelene.dir/del.c.obj"
-	"E:\Program Files (x86)\mingw-w64\i686-7.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\PrPr1_rozdelene.dir\del.c.obj   -c C:\Users\wlach\CLionProjects\PrPr1_rozdelene\del.c
+CMakeFiles/PrPr1_rozdelene.dir/n.c.obj: CMakeFiles/PrPr1_rozdelene.dir/flags.make
+CMakeFiles/PrPr1_rozdelene.dir/n.c.obj: ../n.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wlach\CLionProjects\PrPr1_rozdelene\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/PrPr1_rozdelene.dir/n.c.obj"
+	"E:\Program Files (x86)\mingw-w64\i686-7.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\PrPr1_rozdelene.dir\n.c.obj   -c C:\Users\wlach\CLionProjects\PrPr1_rozdelene\n.c
 
-CMakeFiles/PrPr1_rozdelene.dir/del.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PrPr1_rozdelene.dir/del.c.i"
-	"E:\Program Files (x86)\mingw-w64\i686-7.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\wlach\CLionProjects\PrPr1_rozdelene\del.c > CMakeFiles\PrPr1_rozdelene.dir\del.c.i
+CMakeFiles/PrPr1_rozdelene.dir/n.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PrPr1_rozdelene.dir/n.c.i"
+	"E:\Program Files (x86)\mingw-w64\i686-7.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\wlach\CLionProjects\PrPr1_rozdelene\n.c > CMakeFiles\PrPr1_rozdelene.dir\n.c.i
 
-CMakeFiles/PrPr1_rozdelene.dir/del.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PrPr1_rozdelene.dir/del.c.s"
-	"E:\Program Files (x86)\mingw-w64\i686-7.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\wlach\CLionProjects\PrPr1_rozdelene\del.c -o CMakeFiles\PrPr1_rozdelene.dir\del.c.s
+CMakeFiles/PrPr1_rozdelene.dir/n.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PrPr1_rozdelene.dir/n.c.s"
+	"E:\Program Files (x86)\mingw-w64\i686-7.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\wlach\CLionProjects\PrPr1_rozdelene\n.c -o CMakeFiles\PrPr1_rozdelene.dir\n.c.s
 
-CMakeFiles/PrPr1_rozdelene.dir/del.c.obj.requires:
+CMakeFiles/PrPr1_rozdelene.dir/n.c.obj.requires:
 
-.PHONY : CMakeFiles/PrPr1_rozdelene.dir/del.c.obj.requires
+.PHONY : CMakeFiles/PrPr1_rozdelene.dir/n.c.obj.requires
 
-CMakeFiles/PrPr1_rozdelene.dir/del.c.obj.provides: CMakeFiles/PrPr1_rozdelene.dir/del.c.obj.requires
-	$(MAKE) -f CMakeFiles\PrPr1_rozdelene.dir\build.make CMakeFiles/PrPr1_rozdelene.dir/del.c.obj.provides.build
-.PHONY : CMakeFiles/PrPr1_rozdelene.dir/del.c.obj.provides
+CMakeFiles/PrPr1_rozdelene.dir/n.c.obj.provides: CMakeFiles/PrPr1_rozdelene.dir/n.c.obj.requires
+	$(MAKE) -f CMakeFiles\PrPr1_rozdelene.dir\build.make CMakeFiles/PrPr1_rozdelene.dir/n.c.obj.provides.build
+.PHONY : CMakeFiles/PrPr1_rozdelene.dir/n.c.obj.provides
 
-CMakeFiles/PrPr1_rozdelene.dir/del.c.obj.provides.build: CMakeFiles/PrPr1_rozdelene.dir/del.c.obj
-
-
-CMakeFiles/PrPr1_rozdelene.dir/ces.c.obj: CMakeFiles/PrPr1_rozdelene.dir/flags.make
-CMakeFiles/PrPr1_rozdelene.dir/ces.c.obj: ../ces.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wlach\CLionProjects\PrPr1_rozdelene\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/PrPr1_rozdelene.dir/ces.c.obj"
-	"E:\Program Files (x86)\mingw-w64\i686-7.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\PrPr1_rozdelene.dir\ces.c.obj   -c C:\Users\wlach\CLionProjects\PrPr1_rozdelene\ces.c
-
-CMakeFiles/PrPr1_rozdelene.dir/ces.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PrPr1_rozdelene.dir/ces.c.i"
-	"E:\Program Files (x86)\mingw-w64\i686-7.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\wlach\CLionProjects\PrPr1_rozdelene\ces.c > CMakeFiles\PrPr1_rozdelene.dir\ces.c.i
-
-CMakeFiles/PrPr1_rozdelene.dir/ces.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PrPr1_rozdelene.dir/ces.c.s"
-	"E:\Program Files (x86)\mingw-w64\i686-7.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\wlach\CLionProjects\PrPr1_rozdelene\ces.c -o CMakeFiles\PrPr1_rozdelene.dir\ces.c.s
-
-CMakeFiles/PrPr1_rozdelene.dir/ces.c.obj.requires:
-
-.PHONY : CMakeFiles/PrPr1_rozdelene.dir/ces.c.obj.requires
-
-CMakeFiles/PrPr1_rozdelene.dir/ces.c.obj.provides: CMakeFiles/PrPr1_rozdelene.dir/ces.c.obj.requires
-	$(MAKE) -f CMakeFiles\PrPr1_rozdelene.dir\build.make CMakeFiles/PrPr1_rozdelene.dir/ces.c.obj.provides.build
-.PHONY : CMakeFiles/PrPr1_rozdelene.dir/ces.c.obj.provides
-
-CMakeFiles/PrPr1_rozdelene.dir/ces.c.obj.provides.build: CMakeFiles/PrPr1_rozdelene.dir/ces.c.obj
+CMakeFiles/PrPr1_rozdelene.dir/n.c.obj.provides.build: CMakeFiles/PrPr1_rozdelene.dir/n.c.obj
 
 
-CMakeFiles/PrPr1_rozdelene.dir/decode.c.obj: CMakeFiles/PrPr1_rozdelene.dir/flags.make
-CMakeFiles/PrPr1_rozdelene.dir/decode.c.obj: ../decode.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wlach\CLionProjects\PrPr1_rozdelene\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/PrPr1_rozdelene.dir/decode.c.obj"
-	"E:\Program Files (x86)\mingw-w64\i686-7.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\PrPr1_rozdelene.dir\decode.c.obj   -c C:\Users\wlach\CLionProjects\PrPr1_rozdelene\decode.c
+CMakeFiles/PrPr1_rozdelene.dir/h.c.obj: CMakeFiles/PrPr1_rozdelene.dir/flags.make
+CMakeFiles/PrPr1_rozdelene.dir/h.c.obj: ../h.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wlach\CLionProjects\PrPr1_rozdelene\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/PrPr1_rozdelene.dir/h.c.obj"
+	"E:\Program Files (x86)\mingw-w64\i686-7.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\PrPr1_rozdelene.dir\h.c.obj   -c C:\Users\wlach\CLionProjects\PrPr1_rozdelene\h.c
 
-CMakeFiles/PrPr1_rozdelene.dir/decode.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PrPr1_rozdelene.dir/decode.c.i"
-	"E:\Program Files (x86)\mingw-w64\i686-7.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\wlach\CLionProjects\PrPr1_rozdelene\decode.c > CMakeFiles\PrPr1_rozdelene.dir\decode.c.i
+CMakeFiles/PrPr1_rozdelene.dir/h.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PrPr1_rozdelene.dir/h.c.i"
+	"E:\Program Files (x86)\mingw-w64\i686-7.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\wlach\CLionProjects\PrPr1_rozdelene\h.c > CMakeFiles\PrPr1_rozdelene.dir\h.c.i
 
-CMakeFiles/PrPr1_rozdelene.dir/decode.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PrPr1_rozdelene.dir/decode.c.s"
-	"E:\Program Files (x86)\mingw-w64\i686-7.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\wlach\CLionProjects\PrPr1_rozdelene\decode.c -o CMakeFiles\PrPr1_rozdelene.dir\decode.c.s
+CMakeFiles/PrPr1_rozdelene.dir/h.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PrPr1_rozdelene.dir/h.c.s"
+	"E:\Program Files (x86)\mingw-w64\i686-7.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\wlach\CLionProjects\PrPr1_rozdelene\h.c -o CMakeFiles\PrPr1_rozdelene.dir\h.c.s
 
-CMakeFiles/PrPr1_rozdelene.dir/decode.c.obj.requires:
+CMakeFiles/PrPr1_rozdelene.dir/h.c.obj.requires:
 
-.PHONY : CMakeFiles/PrPr1_rozdelene.dir/decode.c.obj.requires
+.PHONY : CMakeFiles/PrPr1_rozdelene.dir/h.c.obj.requires
 
-CMakeFiles/PrPr1_rozdelene.dir/decode.c.obj.provides: CMakeFiles/PrPr1_rozdelene.dir/decode.c.obj.requires
-	$(MAKE) -f CMakeFiles\PrPr1_rozdelene.dir\build.make CMakeFiles/PrPr1_rozdelene.dir/decode.c.obj.provides.build
-.PHONY : CMakeFiles/PrPr1_rozdelene.dir/decode.c.obj.provides
+CMakeFiles/PrPr1_rozdelene.dir/h.c.obj.provides: CMakeFiles/PrPr1_rozdelene.dir/h.c.obj.requires
+	$(MAKE) -f CMakeFiles\PrPr1_rozdelene.dir\build.make CMakeFiles/PrPr1_rozdelene.dir/h.c.obj.provides.build
+.PHONY : CMakeFiles/PrPr1_rozdelene.dir/h.c.obj.provides
 
-CMakeFiles/PrPr1_rozdelene.dir/decode.c.obj.provides.build: CMakeFiles/PrPr1_rozdelene.dir/decode.c.obj
+CMakeFiles/PrPr1_rozdelene.dir/h.c.obj.provides.build: CMakeFiles/PrPr1_rozdelene.dir/h.c.obj
 
 
 # Object files for target PrPr1_rozdelene
@@ -330,9 +306,8 @@ PrPr1_rozdelene_OBJECTS = \
 "CMakeFiles/PrPr1_rozdelene.dir/p.c.obj" \
 "CMakeFiles/PrPr1_rozdelene.dir/a.c.obj" \
 "CMakeFiles/PrPr1_rozdelene.dir/v.c.obj" \
-"CMakeFiles/PrPr1_rozdelene.dir/del.c.obj" \
-"CMakeFiles/PrPr1_rozdelene.dir/ces.c.obj" \
-"CMakeFiles/PrPr1_rozdelene.dir/decode.c.obj"
+"CMakeFiles/PrPr1_rozdelene.dir/n.c.obj" \
+"CMakeFiles/PrPr1_rozdelene.dir/h.c.obj"
 
 # External object files for target PrPr1_rozdelene
 PrPr1_rozdelene_EXTERNAL_OBJECTS =
@@ -345,14 +320,13 @@ PrPr1_rozdelene.exe: CMakeFiles/PrPr1_rozdelene.dir/r.c.obj
 PrPr1_rozdelene.exe: CMakeFiles/PrPr1_rozdelene.dir/p.c.obj
 PrPr1_rozdelene.exe: CMakeFiles/PrPr1_rozdelene.dir/a.c.obj
 PrPr1_rozdelene.exe: CMakeFiles/PrPr1_rozdelene.dir/v.c.obj
-PrPr1_rozdelene.exe: CMakeFiles/PrPr1_rozdelene.dir/del.c.obj
-PrPr1_rozdelene.exe: CMakeFiles/PrPr1_rozdelene.dir/ces.c.obj
-PrPr1_rozdelene.exe: CMakeFiles/PrPr1_rozdelene.dir/decode.c.obj
+PrPr1_rozdelene.exe: CMakeFiles/PrPr1_rozdelene.dir/n.c.obj
+PrPr1_rozdelene.exe: CMakeFiles/PrPr1_rozdelene.dir/h.c.obj
 PrPr1_rozdelene.exe: CMakeFiles/PrPr1_rozdelene.dir/build.make
 PrPr1_rozdelene.exe: CMakeFiles/PrPr1_rozdelene.dir/linklibs.rsp
 PrPr1_rozdelene.exe: CMakeFiles/PrPr1_rozdelene.dir/objects1.rsp
 PrPr1_rozdelene.exe: CMakeFiles/PrPr1_rozdelene.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\wlach\CLionProjects\PrPr1_rozdelene\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking C executable PrPr1_rozdelene.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\wlach\CLionProjects\PrPr1_rozdelene\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking C executable PrPr1_rozdelene.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\PrPr1_rozdelene.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -368,9 +342,8 @@ CMakeFiles/PrPr1_rozdelene.dir/requires: CMakeFiles/PrPr1_rozdelene.dir/r.c.obj.
 CMakeFiles/PrPr1_rozdelene.dir/requires: CMakeFiles/PrPr1_rozdelene.dir/p.c.obj.requires
 CMakeFiles/PrPr1_rozdelene.dir/requires: CMakeFiles/PrPr1_rozdelene.dir/a.c.obj.requires
 CMakeFiles/PrPr1_rozdelene.dir/requires: CMakeFiles/PrPr1_rozdelene.dir/v.c.obj.requires
-CMakeFiles/PrPr1_rozdelene.dir/requires: CMakeFiles/PrPr1_rozdelene.dir/del.c.obj.requires
-CMakeFiles/PrPr1_rozdelene.dir/requires: CMakeFiles/PrPr1_rozdelene.dir/ces.c.obj.requires
-CMakeFiles/PrPr1_rozdelene.dir/requires: CMakeFiles/PrPr1_rozdelene.dir/decode.c.obj.requires
+CMakeFiles/PrPr1_rozdelene.dir/requires: CMakeFiles/PrPr1_rozdelene.dir/n.c.obj.requires
+CMakeFiles/PrPr1_rozdelene.dir/requires: CMakeFiles/PrPr1_rozdelene.dir/h.c.obj.requires
 
 .PHONY : CMakeFiles/PrPr1_rozdelene.dir/requires
 

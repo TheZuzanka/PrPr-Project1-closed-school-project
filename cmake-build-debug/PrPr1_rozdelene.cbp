@@ -77,22 +77,19 @@
 		<Unit filename="C:/Users/wlach/CLionProjects/PrPr1_rozdelene/a.c">
 			<Option target="PrPr1_rozdelene"/>
 		</Unit>
-		<Unit filename="C:/Users/wlach/CLionProjects/PrPr1_rozdelene/ces.c">
-			<Option target="PrPr1_rozdelene"/>
-		</Unit>
-		<Unit filename="C:/Users/wlach/CLionProjects/PrPr1_rozdelene/decode.c">
-			<Option target="PrPr1_rozdelene"/>
-		</Unit>
-		<Unit filename="C:/Users/wlach/CLionProjects/PrPr1_rozdelene/del.c">
-			<Option target="PrPr1_rozdelene"/>
-		</Unit>
 		<Unit filename="C:/Users/wlach/CLionProjects/PrPr1_rozdelene/functions.h">
+			<Option target="PrPr1_rozdelene"/>
+		</Unit>
+		<Unit filename="C:/Users/wlach/CLionProjects/PrPr1_rozdelene/h.c">
 			<Option target="PrPr1_rozdelene"/>
 		</Unit>
 		<Unit filename="C:/Users/wlach/CLionProjects/PrPr1_rozdelene/k.c">
 			<Option target="PrPr1_rozdelene"/>
 		</Unit>
 		<Unit filename="C:/Users/wlach/CLionProjects/PrPr1_rozdelene/main.c">
+			<Option target="PrPr1_rozdelene"/>
+		</Unit>
+		<Unit filename="C:/Users/wlach/CLionProjects/PrPr1_rozdelene/n.c">
 			<Option target="PrPr1_rozdelene"/>
 		</Unit>
 		<Unit filename="C:/Users/wlach/CLionProjects/PrPr1_rozdelene/o.c">

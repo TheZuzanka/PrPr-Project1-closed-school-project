@@ -149,86 +149,32 @@ a.c.s:
 	$(MAKE) -f CMakeFiles\PrPr1_rozdelene.dir\build.make CMakeFiles/PrPr1_rozdelene.dir/a.c.s
 .PHONY : a.c.s
 
-ces.obj: ces.c.obj
+h.obj: h.c.obj
 
-.PHONY : ces.obj
-
-# target to build an object file
-ces.c.obj:
-	$(MAKE) -f CMakeFiles\PrPr1_rozdelene.dir\build.make CMakeFiles/PrPr1_rozdelene.dir/ces.c.obj
-.PHONY : ces.c.obj
-
-ces.i: ces.c.i
-
-.PHONY : ces.i
-
-# target to preprocess a source file
-ces.c.i:
-	$(MAKE) -f CMakeFiles\PrPr1_rozdelene.dir\build.make CMakeFiles/PrPr1_rozdelene.dir/ces.c.i
-.PHONY : ces.c.i
-
-ces.s: ces.c.s
-
-.PHONY : ces.s
-
-# target to generate assembly for a file
-ces.c.s:
-	$(MAKE) -f CMakeFiles\PrPr1_rozdelene.dir\build.make CMakeFiles/PrPr1_rozdelene.dir/ces.c.s
-.PHONY : ces.c.s
-
-decode.obj: decode.c.obj
-
-.PHONY : decode.obj
+.PHONY : h.obj
 
 # target to build an object file
-decode.c.obj:
-	$(MAKE) -f CMakeFiles\PrPr1_rozdelene.dir\build.make CMakeFiles/PrPr1_rozdelene.dir/decode.c.obj
-.PHONY : decode.c.obj
+h.c.obj:
+	$(MAKE) -f CMakeFiles\PrPr1_rozdelene.dir\build.make CMakeFiles/PrPr1_rozdelene.dir/h.c.obj
+.PHONY : h.c.obj
 
-decode.i: decode.c.i
+h.i: h.c.i
 
-.PHONY : decode.i
-
-# target to preprocess a source file
-decode.c.i:
-	$(MAKE) -f CMakeFiles\PrPr1_rozdelene.dir\build.make CMakeFiles/PrPr1_rozdelene.dir/decode.c.i
-.PHONY : decode.c.i
-
-decode.s: decode.c.s
-
-.PHONY : decode.s
-
-# target to generate assembly for a file
-decode.c.s:
-	$(MAKE) -f CMakeFiles\PrPr1_rozdelene.dir\build.make CMakeFiles/PrPr1_rozdelene.dir/decode.c.s
-.PHONY : decode.c.s
-
-del.obj: del.c.obj
-
-.PHONY : del.obj
-
-# target to build an object file
-del.c.obj:
-	$(MAKE) -f CMakeFiles\PrPr1_rozdelene.dir\build.make CMakeFiles/PrPr1_rozdelene.dir/del.c.obj
-.PHONY : del.c.obj
-
-del.i: del.c.i
-
-.PHONY : del.i
+.PHONY : h.i
 
 # target to preprocess a source file
-del.c.i:
-	$(MAKE) -f CMakeFiles\PrPr1_rozdelene.dir\build.make CMakeFiles/PrPr1_rozdelene.dir/del.c.i
-.PHONY : del.c.i
+h.c.i:
+	$(MAKE) -f CMakeFiles\PrPr1_rozdelene.dir\build.make CMakeFiles/PrPr1_rozdelene.dir/h.c.i
+.PHONY : h.c.i
 
-del.s: del.c.s
+h.s: h.c.s
 
-.PHONY : del.s
+.PHONY : h.s
 
 # target to generate assembly for a file
-del.c.s:
-	$(MAKE) -f CMakeFiles\PrPr1_rozdelene.dir\build.make CMakeFiles/PrPr1_rozdelene.dir/del.c.s
-.PHONY : del.c.s
+h.c.s:
+	$(MAKE) -f CMakeFiles\PrPr1_rozdelene.dir\build.make CMakeFiles/PrPr1_rozdelene.dir/h.c.s
+.PHONY : h.c.s
 
 k.obj: k.c.obj
 
@@ -283,6 +229,33 @@ main.s: main.c.s
 main.c.s:
 	$(MAKE) -f CMakeFiles\PrPr1_rozdelene.dir\build.make CMakeFiles/PrPr1_rozdelene.dir/main.c.s
 .PHONY : main.c.s
+
+n.obj: n.c.obj
+
+.PHONY : n.obj
+
+# target to build an object file
+n.c.obj:
+	$(MAKE) -f CMakeFiles\PrPr1_rozdelene.dir\build.make CMakeFiles/PrPr1_rozdelene.dir/n.c.obj
+.PHONY : n.c.obj
+
+n.i: n.c.i
+
+.PHONY : n.i
+
+# target to preprocess a source file
+n.c.i:
+	$(MAKE) -f CMakeFiles\PrPr1_rozdelene.dir\build.make CMakeFiles/PrPr1_rozdelene.dir/n.c.i
+.PHONY : n.c.i
+
+n.s: n.c.s
+
+.PHONY : n.s
+
+# target to generate assembly for a file
+n.c.s:
+	$(MAKE) -f CMakeFiles\PrPr1_rozdelene.dir\build.make CMakeFiles/PrPr1_rozdelene.dir/n.c.s
+.PHONY : n.c.s
 
 o.obj: o.c.obj
 
@@ -431,21 +404,18 @@ help:
 	@echo ... a.obj
 	@echo ... a.i
 	@echo ... a.s
-	@echo ... ces.obj
-	@echo ... ces.i
-	@echo ... ces.s
-	@echo ... decode.obj
-	@echo ... decode.i
-	@echo ... decode.s
-	@echo ... del.obj
-	@echo ... del.i
-	@echo ... del.s
+	@echo ... h.obj
+	@echo ... h.i
+	@echo ... h.s
 	@echo ... k.obj
 	@echo ... k.i
 	@echo ... k.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... n.obj
+	@echo ... n.i
+	@echo ... n.s
 	@echo ... o.obj
 	@echo ... o.i
 	@echo ... o.s

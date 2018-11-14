@@ -40,21 +40,14 @@ int main() {
                 new_list = a(p_list, &num_notes);
                 p_list = &new_list;
                 break;
-            case 'd':
-                scanf("%d", &position);
-                getchar();
-                del(p_list, &num_notes, position);
-                break;
             case 'c':
-                scanf("%d", &value);
-                getchar();
-                ces(p_list, num_notes, value);
+                n(p_list, &num_notes);
                 break;
+            case 'h':
+                h(p_list, &num_notes);
+                break;
+
             default:
-            case 'b':
-                scanf("%d", &value);
-                getchar();
-                decode(p_list, num_notes, value);
                 break;
         }
     }

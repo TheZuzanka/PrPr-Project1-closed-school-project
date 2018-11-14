@@ -16,26 +16,12 @@ string.h
 functions.h
 C:/Users/wlach/CLionProjects/PrPr1_rozdelene/functions.h
 
-C:/Users/wlach/CLionProjects/PrPr1_rozdelene/ces.c
-functions.h
 C:/Users/wlach/CLionProjects/PrPr1_rozdelene/functions.h
-string.h
+stdio.h
 -
 
-C:/Users/wlach/CLionProjects/PrPr1_rozdelene/decode.c
+C:/Users/wlach/CLionProjects/PrPr1_rozdelene/h.c
 functions.h
-C:/Users/wlach/CLionProjects/PrPr1_rozdelene/functions.h
-string.h
--
-
-C:/Users/wlach/CLionProjects/PrPr1_rozdelene/del.c
-functions.h
-C:/Users/wlach/CLionProjects/PrPr1_rozdelene/functions.h
-string.h
--
-stdlib.h
--
-
 C:/Users/wlach/CLionProjects/PrPr1_rozdelene/functions.h
 stdio.h
 -
@@ -53,6 +39,14 @@ stdio.h
 -
 functions.h
 C:/Users/wlach/CLionProjects/PrPr1_rozdelene/functions.h
+
+C:/Users/wlach/CLionProjects/PrPr1_rozdelene/n.c
+functions.h
+C:/Users/wlach/CLionProjects/PrPr1_rozdelene/functions.h
+string.h
+-
+stdlib.h
+-
 
 C:/Users/wlach/CLionProjects/PrPr1_rozdelene/o.c
 stdio.h
