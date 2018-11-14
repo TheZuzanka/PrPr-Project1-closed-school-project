@@ -7,6 +7,9 @@ CMakeFiles/PrPr1_rozdelene.dir/a.c.obj: ../functions.h
 CMakeFiles/PrPr1_rozdelene.dir/ces.c.obj: ../ces.c
 CMakeFiles/PrPr1_rozdelene.dir/ces.c.obj: ../functions.h
 
+CMakeFiles/PrPr1_rozdelene.dir/decode.c.obj: ../decode.c
+CMakeFiles/PrPr1_rozdelene.dir/decode.c.obj: ../functions.h
+
 CMakeFiles/PrPr1_rozdelene.dir/del.c.obj: ../del.c
 CMakeFiles/PrPr1_rozdelene.dir/del.c.obj: ../functions.h
 

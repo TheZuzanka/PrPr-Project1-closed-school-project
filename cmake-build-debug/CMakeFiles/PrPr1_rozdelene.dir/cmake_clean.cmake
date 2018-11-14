@@ -9,6 +9,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/PrPr1_rozdelene.dir/v.c.obj"
   "CMakeFiles/PrPr1_rozdelene.dir/del.c.obj"
   "CMakeFiles/PrPr1_rozdelene.dir/ces.c.obj"
+  "CMakeFiles/PrPr1_rozdelene.dir/decode.c.obj"
   "PrPr1_rozdelene.pdb"
   "PrPr1_rozdelene.exe"
   "PrPr1_rozdelene.exe.manifest"

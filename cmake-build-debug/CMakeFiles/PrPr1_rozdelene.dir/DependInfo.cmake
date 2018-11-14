@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "C:/Users/wlach/CLionProjects/PrPr1_rozdelene/a.c" "C:/Users/wlach/CLionProjects/PrPr1_rozdelene/cmake-build-debug/CMakeFiles/PrPr1_rozdelene.dir/a.c.obj"
   "C:/Users/wlach/CLionProjects/PrPr1_rozdelene/ces.c" "C:/Users/wlach/CLionProjects/PrPr1_rozdelene/cmake-build-debug/CMakeFiles/PrPr1_rozdelene.dir/ces.c.obj"
+  "C:/Users/wlach/CLionProjects/PrPr1_rozdelene/decode.c" "C:/Users/wlach/CLionProjects/PrPr1_rozdelene/cmake-build-debug/CMakeFiles/PrPr1_rozdelene.dir/decode.c.obj"
   "C:/Users/wlach/CLionProjects/PrPr1_rozdelene/del.c" "C:/Users/wlach/CLionProjects/PrPr1_rozdelene/cmake-build-debug/CMakeFiles/PrPr1_rozdelene.dir/del.c.obj"
   "C:/Users/wlach/CLionProjects/PrPr1_rozdelene/k.c" "C:/Users/wlach/CLionProjects/PrPr1_rozdelene/cmake-build-debug/CMakeFiles/PrPr1_rozdelene.dir/k.c.obj"
   "C:/Users/wlach/CLionProjects/PrPr1_rozdelene/main.c" "C:/Users/wlach/CLionProjects/PrPr1_rozdelene/cmake-build-debug/CMakeFiles/PrPr1_rozdelene.dir/main.c.obj"

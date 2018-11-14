@@ -49,7 +49,12 @@ int main() {
                 scanf("%d", &value);
                 getchar();
                 ces(p_list, num_notes, value);
+                break;
             default:
+            case 'b':
+                scanf("%d", &value);
+                getchar();
+                decode(p_list, num_notes, value);
                 break;
         }
     }

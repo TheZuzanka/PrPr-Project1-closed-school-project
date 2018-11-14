@@ -27,3 +27,4 @@ void p(PERSON **p_list, int n_notes);
 PERSON *a(PERSON **p_list, int *n_notes);
 void del(PERSON **p_list, int *n_note, int position);
 void ces(PERSON **p_list, int n_notes, int value);
+void decode(PERSON **p_list, int n_notes, int value);

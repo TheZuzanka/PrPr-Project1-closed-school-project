@@ -80,6 +80,9 @@
 		<Unit filename="C:/Users/wlach/CLionProjects/PrPr1_rozdelene/ces.c">
 			<Option target="PrPr1_rozdelene"/>
 		</Unit>
+		<Unit filename="C:/Users/wlach/CLionProjects/PrPr1_rozdelene/decode.c">
+			<Option target="PrPr1_rozdelene"/>
+		</Unit>
 		<Unit filename="C:/Users/wlach/CLionProjects/PrPr1_rozdelene/del.c">
 			<Option target="PrPr1_rozdelene"/>
 		</Unit>
