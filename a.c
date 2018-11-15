@@ -7,53 +7,55 @@
 
 PERSON *a(PERSON **p_list, int *n_notes) {
     int left = *n_notes;
-    char string_n[100];
+    char new_name[100];
     int aktual = 0, insert_pos = 0, inserted = 0;                                                                       //inserted = či už bolo vložené, aktual = pozícia v pôvodnom poli, insert_pos = pozícia v novom poli
 
-    char name_n[51];
-    int sex_n;
-    char birth_year_n[5];
-    char SPZ_n[8];
-    int type_n;
-    int money_n;
-    char date_n[9];
+    char new_name_max50_signs[51];
+    int new_sex;
+    char new_birth_year[5];
+    char new_SPZ[8];
+    int new_type;
+    int new_money;
+    char new_date[9];
     PERSON *new_list = (PERSON *) malloc((*n_notes + 1) * sizeof(PERSON));
     (*n_notes)++;
 
-    fgets(string_n, 499, stdin);                                                                                        //do pomocnej premennej načítam celé meno
-    if (strlen(string_n) <= MAX_STRING_LENGTH) {                                                                        //ak sa mi meno zmestí do štruktúry
-        string_n[strlen(string_n) - 1] = '\0';                                                                          //odrežem \n na konci
-    } else {
-        string_n[MAX_STRING_LENGTH] = '\0';                                                                             //ak sa nezmestí, odrežem všetko, čo je dlhšie ako 50 znakov (51 = '\n')
+    fgets(new_name, 499, stdin);                                                                                        //do pomocnej premennej načítam celé meno
+    if (strlen(new_name) <= MAX_STRING_LENGTH) {                                                                        //ak sa mi meno zmestí do štruktúry
+        new_name[strlen(new_name) - 1] = '\0';                                                                          //odrežem \n na konci
     }
-    strcpy(name_n, string_n);
-    sex_n = getchar();
-    scanf("%s", birth_year_n);
-    scanf("%s", SPZ_n);
-    scanf("%d", &type_n);
-    scanf("%d", &money_n);
-    scanf("%s", date_n);
+    else {
+        new_name[MAX_STRING_LENGTH] = '\0';                                                                             //ak sa nezmestí, odrežem všetko, čo je dlhšie ako 50 znakov (51 = '\n')
+    }
+    strcpy(new_name_max50_signs, new_name);
+    
+    new_sex = getchar();
+    scanf("%s", new_birth_year);
+    scanf("%s", new_SPZ);
+    scanf("%d", &new_type);
+    scanf("%d", &new_money);
+    scanf("%s", new_date);
     getchar();
 
     while (insert_pos <= left) {
-        if ((!inserted && insert_pos == left) || (!inserted && strcmp(name_n, (*p_list)[aktual].name) <=0)) {           //som na poslednom prvku a ešte som pridávaný prvok nevložila, alebo som prvok ešte nevložila a abecedne môžem
-            strcpy(new_list[insert_pos].name, name_n);
-            new_list[insert_pos].sex = sex_n;
-            strcpy(new_list[insert_pos].birth_year, birth_year_n);
-            strcpy(new_list[insert_pos].SPZ, SPZ_n);
-            new_list[insert_pos].type = type_n;
-            new_list[insert_pos].money = money_n;
-            strcpy(new_list[insert_pos].date, date_n);
+        if ((!inserted && insert_pos == left) || (!inserted && strcmp(new_name_max50_signs, (*p_list)[aktual].name) <=0)) {   //som na poslednom prvku a ešte som pridávaný prvok nevložila, alebo som prvok ešte nevložila a abecedne môžem
+            strcpy(new_list[insert_pos].name, new_name_max50_signs);
+            new_list[insert_pos].sex = new_sex;
+            strcpy(new_list[insert_pos].birth_year, new_birth_year);
+            strcpy(new_list[insert_pos].SPZ, new_SPZ);
+            new_list[insert_pos].type = new_type;
+            new_list[insert_pos].money = new_money;
+            strcpy(new_list[insert_pos].date, new_date);
             insert_pos++;
             inserted = 1;
-        } else if (!inserted && strcmp(name_n, (*p_list)[aktual].name) == 0) {                                          //ak vkladané údaje majú rovnaké meno ako nejaké meno, ktoré už v poli je, napíšem vkladaný záznam záznam pred existujúci záznam s rovnakým menom
-            strcpy(new_list[insert_pos].name, name_n);
-            new_list[insert_pos].sex = sex_n;
-            strcpy(new_list[insert_pos].birth_year, birth_year_n);
-            strcpy(new_list[insert_pos].SPZ, SPZ_n);
-            new_list[insert_pos].type = type_n;
-            new_list[insert_pos].money = money_n;
-            strcpy(new_list[insert_pos].date, date_n);
+        } else if (!inserted && strcmp(new_name_max50_signs, (*p_list)[aktual].name) == 0) {                            //ak vkladané údaje majú rovnaké meno ako nejaké meno, ktoré už v poli je, napíšem vkladaný záznam záznam pred existujúci záznam s rovnakým menom
+            strcpy(new_list[insert_pos].name, new_name_max50_signs);
+            new_list[insert_pos].sex = new_sex;
+            strcpy(new_list[insert_pos].birth_year, new_birth_year);
+            strcpy(new_list[insert_pos].SPZ, new_SPZ);
+            new_list[insert_pos].type = new_type;
+            new_list[insert_pos].money = new_money;
+            strcpy(new_list[insert_pos].date, new_date);
             insert_pos++;
             inserted = 1;
         } else {                                                                                                        //v ostatných prípadoch iba kopírujem zo starého do nového poľa
