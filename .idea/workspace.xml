@@ -12,8 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4aec35bc-cd84-425d-b7eb-f3b4410e4e6d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/v.c" afterPath="$PROJECT_DIR$/v.c" />
+      <change beforePath="$PROJECT_DIR$/x.c" afterPath="$PROJECT_DIR$/x.c" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,12 +65,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="x.c" pinned="false" current-in-tab="false">
+      <file leaf-file-name="x.c" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/x.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="31" column="1" lean-forward="false" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-              <folding />
+            <state relative-caret-position="391">
+              <caret line="23" column="120" lean-forward="false" selection-start-line="23" selection-start-column="120" selection-end-line="23" selection-end-column="120" />
+              <folding>
+                <element signature="e#39#57#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -87,12 +89,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="v.c" pinned="false" current-in-tab="true">
+      <file leaf-file-name="v.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/v.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-              <folding />
+            <state relative-caret-position="85">
+              <caret line="5" column="38" lean-forward="true" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+              <folding>
+                <element signature="e#39#57#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -135,7 +139,6 @@
       <list>
         <option value="$PROJECT_DIR$/p.c" />
         <option value="$PROJECT_DIR$/o.c" />
-        <option value="$PROJECT_DIR$/x.c" />
         <option value="$PROJECT_DIR$/a.c" />
         <option value="$PROJECT_DIR$/k.c" />
         <option value="$PROJECT_DIR$/r.c" />
@@ -148,6 +151,7 @@
         <option value="$PROJECT_DIR$/cmake-build-debug/priestupky.txt" />
         <option value="$PROJECT_DIR$/n.c" />
         <option value="$PROJECT_DIR$/v.c" />
+        <option value="$PROJECT_DIR$/x.c" />
       </list>
     </option>
   </component>
@@ -157,7 +161,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1346" />
@@ -257,15 +261,15 @@
       <workItem from="1542130696434" duration="10180000" />
       <workItem from="1542177875127" duration="6424000" />
       <workItem from="1542274393191" duration="18000" />
-      <workItem from="1542298561351" duration="696000" />
+      <workItem from="1542298561351" duration="1562000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41235000" />
+    <option name="totallyTimeSpent" value="42101000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.49056605" order="0" side_tool="false" content_ui="combo" />
@@ -672,14 +676,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/x.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="31" column="1" lean-forward="false" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/a.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-74">
@@ -692,9 +688,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/v.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-          <folding />
+        <state relative-caret-position="85">
+          <caret line="5" column="38" lean-forward="true" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+          <folding>
+            <element signature="e#39#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/x.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="120" lean-forward="false" selection-start-line="23" selection-start-column="120" selection-end-line="23" selection-end-column="120" />
+          <folding>
+            <element signature="e#39#57#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

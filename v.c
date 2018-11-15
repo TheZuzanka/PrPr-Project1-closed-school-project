@@ -9,7 +9,7 @@ void v(PERSON **p_list, int n_notes) {
     if (*p_list == NULL) {                                                                                              //ak bola vykonaná funkcia o alebo a teda list nie je prázdny, vypíše sa
         return;
     }
-    
+
     for (i = 0; i < n_notes; i++) {
         printf("meno priezvisko: %s\n"
                        "pohlavie: %c\n"
