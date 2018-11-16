@@ -28,7 +28,7 @@ PERSON *a(PERSON **p_list, int *n_notes) {
         new_name[MAX_STRING_LENGTH] = '\0';                                                                             //ak sa nezmestí, odrežem všetko, čo je dlhšie ako 50 znakov (51 = '\n')
     }
     strcpy(new_name_max50_signs, new_name);
-    
+
     new_sex = getchar();
     scanf("%s", new_birth_year);
     scanf("%s", new_SPZ);
